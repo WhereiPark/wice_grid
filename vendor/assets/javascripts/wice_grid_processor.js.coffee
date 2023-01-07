@@ -84,7 +84,7 @@ class WiceGridProcessor
 
 
   exportToCsv : ->
-    @visit @linkForExport
+    window.location = @linkForExport
 
 
   register : (func)->
