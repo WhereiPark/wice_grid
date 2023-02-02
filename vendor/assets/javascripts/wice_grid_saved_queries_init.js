@@ -4,6 +4,10 @@ document.addEventListener('page:load ready', function() {
   return savedQueriesInit();
 });
 
+document.addEventListener('turbolinks:render', function() {
+  return savedQueriesInit();
+});
+
 document.addEventListener('turbo:render', function() {
   return savedQueriesInit();
 });

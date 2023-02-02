@@ -8,6 +8,10 @@ document.addEventListener('turbo:render', function() {
   return initWiceGrid();
 });
 
+document.addEventListener('turbolinks:render', function() {
+  return initWiceGrid();
+});
+
 globalVarForAllGrids = 'wiceGrids';
 
 initWiceGrid = function() {
