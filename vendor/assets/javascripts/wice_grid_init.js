@@ -15,7 +15,6 @@ document.addEventListener('turbolinks:render', function() {
 globalVarForAllGrids = 'wiceGrids';
 
 initWiceGrid = function() {
-  alert('initWiceGrid');
   $(".wice-grid-container").each(function(index, wiceGridContainer) {
     var dataDiv, filterDeclaration, filterDeclarations, fn, gridName, gridProcessor, i, len, processorInitializerArguments;
     gridName = wiceGridContainer.id;
