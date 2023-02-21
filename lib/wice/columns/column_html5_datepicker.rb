@@ -8,10 +8,10 @@ module Wice
       def do_render(params) #:nodoc:
         css_class = 'form-control input-sm native-datepicker ' + (auto_reload ? 'auto-reload' : '')
         date_format = Wice::ConfigurationProvider.value_for(:DATE_FORMAT)
-        '<div class="date-filter wg-html5-datepicker">' +
-          date_field_tag(@name1, params[:fr].try(:strftime, date_format), class: css_class, id: @dom_id) + '<br/>' +
+        '<div class="date-filter wg-html5-datepicker"><div>' +
+          date_field_tag(@name1, params[:fr].try(:strftime, date_format), class: css_class, id: @dom_id) + '</div><div>' +
           date_field_tag(@name2, params[:to].try(:strftime, date_format), class: css_class, id: @dom_id2) +
-          '</div>'
+          '</div></div>'
       end
 
       def has_auto_reloading_calendar? #:nodoc:
