@@ -1,3 +1,6 @@
+## 4.3.0 (21 February, 2023)
+* Added HTML5 Datetime Picker
+* Adjustd formatting of HTML5 Date Picker
 ## 4.2.0 (1 january, 2023)
 * Allow Rails 7 in gemspec lock
 
