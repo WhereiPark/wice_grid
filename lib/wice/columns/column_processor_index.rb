@@ -11,6 +11,7 @@ module Wice #:nodoc:
       :jquery_datepicker,      'column_jquery_datepicker',
       :bootstrap_datepicker,   'column_bootstrap_datepicker',
       :html5_datepicker,       'column_html5_datepicker',     # not ready
+      :html5_datetimepicker,   'column_html5_datetimepicker', # not ready
       :integer,                'column_integer',
       :range,                  'column_range',
       :float,                  'column_float',
