@@ -1,3 +1,6 @@
+## 4.4.0 (21 February, 2023)
+* Format selects for Bootstrap 5
+* Present + and - from wrapping on select
 ## 4.3.0 (21 February, 2023)
 * Added HTML5 Datetime Picker
 * Adjustd formatting of HTML5 Date Picker
