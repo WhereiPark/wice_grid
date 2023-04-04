@@ -21,7 +21,7 @@ module Wice
           end
         end
 
-        select_options = { name: @parameter_name + '[]', id: @dom_id, class: 'custom-dropdown form-control' }
+        select_options = { name: @parameter_name + '[]', id: @dom_id, class: 'custom-dropdown form-select' }
 
         if @turn_off_select_toggling
           select_toggle = ''
