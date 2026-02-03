@@ -37,7 +37,7 @@ module Wice
         val = val.sub(separator, '.') if val.respond_to?(:sub) && separator
 
         # Parse as float
-        Float(val) rescue nil
+        Integer(val) rescue nil
       end
 
       def get_op_and_value(val) #:nodoc:
