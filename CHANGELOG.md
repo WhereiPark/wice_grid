@@ -1,3 +1,5 @@
+## 4.5.0 (3 February, 2025)
+* Update integer column query to ensure it was cast correctly
 ## 4.4.0 (21 February, 2023)
 * Format selects for Bootstrap 5
 * Present + and - from wrapping on select
